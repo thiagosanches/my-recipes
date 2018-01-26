@@ -10,6 +10,6 @@ mkdir "$BASE_FOLDER/$REPOSITORIES_FOLDER"
 mkdir "$BASE_FOLDER/$TOOLS_FOLDER"
 mkdir "$BASE_FOLDER/$GENERAL_FOLDER"
 
-echo "Clonning my-recipes"
+echo "Cloning my-recipes..."
 cd "$BASE_FOLDER/$REPOSITORIES_FOLDER"
 git clone https://github.com/thiagosanches/my-recipes.git
