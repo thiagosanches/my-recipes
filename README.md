@@ -8,7 +8,7 @@ This repository includes:
 # First steps
 
 ### Windows
-Run the following command to install the chocolatey and the `general-development` recipe.
+Run the following command to enable the WSL, install chocolatey and apply the `general-development` recipe.
 
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
