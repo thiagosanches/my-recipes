@@ -11,6 +11,8 @@ This repository includes:
 Run the following command to install the chocolatey and the `general-development` recipe.
 
 ```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
 Set-ExecutionPolicy AllSigned; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/thiagosanches/my-recipes/master/windows/general-development.config') > general-development.config
