@@ -1,5 +1,5 @@
 # my-recipes
-My Windows 10 and Linux recipes.
+Recipes to a "hybrid" system: Windows 10 and Linux side by side (Windows Subsystem for Linux).
 
 # First steps
 
@@ -15,6 +15,8 @@ choco install --force --yes general-development.config
 ```
 
 ### Linux 
+> It could be used only in Linux as well.
+
 Run the following command to bootstrap the environment:
 
 `curl  https://raw.githubusercontent.com/thiagosanches/my-recipes/master/init.sh | bash`
