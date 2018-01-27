@@ -13,3 +13,6 @@ mkdir "$BASE_FOLDER/$GENERAL_FOLDER"
 echo "Cloning my-recipes..."
 cd "$BASE_FOLDER/$REPOSITORIES_FOLDER"
 git clone https://github.com/thiagosanches/my-recipes.git
+git clone https://github.com/thiagosanches/trump-engine
+git clone https://github.com/thiagosanches/trump-front-end
+git clone https://github.com/thiagosanches/arisco
