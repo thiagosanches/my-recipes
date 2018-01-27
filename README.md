@@ -1,5 +1,9 @@
 # my-recipes
-Recipes to a "hybrid" system: Windows 10 and Linux side by side (Windows Subsystem for Linux).
+This repository includes:
+
+* Recipes to a "hybrid" system: Windows 10 and Linux side by side (Windows Subsystem for Linux).
+* Helpers scripts that I've built.
+
 
 # First steps
 
