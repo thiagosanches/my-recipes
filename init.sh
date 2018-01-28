@@ -11,7 +11,7 @@ git clone https://github.com/thiagosanches/my-recipes.git 2>/dev/null
 # Reusing my functions
 [ -f $TEMP_FOLDER/utils/utils.sh ] && . $TEMP_FOLDER/utils/utils.sh
 
-BASE_FOLDER="/mnt/c/Users/Thiago"
+BASE_FOLDER="$1"
 REPOSITORIES_FOLDER="repositories"
 TOOLS_FOLDER="tools"
 GENERAL_FOLDER="general"
