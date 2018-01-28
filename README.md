@@ -25,4 +25,6 @@ choco install --force --yes general-development.config
 
 Run the following command to bootstrap the environment:
 
-`curl  https://raw.githubusercontent.com/thiagosanches/my-recipes/master/init.sh | bash`
+`curl  https://raw.githubusercontent.com/thiagosanches/my-recipes/master/init.sh -O init.sh`
+
+`./init.sh <your folder goes here>`
