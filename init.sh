@@ -7,7 +7,7 @@ TEMP_FOLDER="$BASE_FOLDER/tmp"
 git clone https://github.com/thiagosanches/my-recipes.git $TEMP_FOLDER
 
 # Re-using my functions.
-[ -f $TEMP_FOLDER/utils/utils.sh ] && . $TEMP_FOLDER/utils/utils.sh
+[ -f $TEMP_FOLDER/linux/utils/utils.sh ] && . $TEMP_FOLDER/linux/utils/utils.sh
 
 REPOSITORIES_FOLDER="repositories"
 TOOLS_FOLDER="tools"
@@ -33,6 +33,6 @@ git clone https://github.com/thiagosanches/arisco
 cd $BASE_FOLDER/$REPOSITORIES_FOLDER/my-recipes
 
 showMessage "Installing docker client..."
-[ -f scripts/install-docker-ce-ubuntu.sh ] && . scripts/install-docker-ce-ubuntu.sh
+[ -f linux/scripts/install-docker-ce-ubuntu.sh ] && . linux/scripts/install-docker-ce-ubuntu.sh
 
 rm -rf $TEMP_FOLDER 2>/dev/null
