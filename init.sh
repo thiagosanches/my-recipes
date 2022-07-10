@@ -9,9 +9,9 @@ git clone https://github.com/thiagosanches/my-recipes.git $TEMP_FOLDER
 # Re-using my functions.
 [ -f $TEMP_FOLDER/linux/utils/utils.sh ] && . $TEMP_FOLDER/linux/utils/utils.sh
 
-REPOSITORIES_FOLDER="repositories"
-TOOLS_FOLDER="tools"
-GENERAL_FOLDER="general"
+REPOSITORIES_FOLDER="r"
+TOOLS_FOLDER="t"
+GENERAL_FOLDER="g"
 
 showMessage "Creating folders..."
 mkdir "$BASE_FOLDER/$REPOSITORIES_FOLDER" 2>/dev/null
