@@ -34,5 +34,7 @@ cd $BASE_FOLDER/$REPOSITORIES_FOLDER/my-recipes
 
 showMessage "Installing docker client..."
 [ -f linux/scripts/install-docker-ce-ubuntu.sh ] && . linux/scripts/install-docker-ce-ubuntu.sh
+[ -f linux/scripts/install-i3.sh ] && . linux/scripts/install-i3.sh
+
 
 rm -rf $TEMP_FOLDER 2>/dev/null
