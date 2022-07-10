@@ -14,9 +14,9 @@ TOOLS_FOLDER="t"
 GENERAL_FOLDER="g"
 
 showMessage "Creating folders..."
-mkdir "$BASE_FOLDER/$REPOSITORIES_FOLDER" 2>/dev/null
-mkdir "$BASE_FOLDER/$TOOLS_FOLDER" 2>/dev/null
-mkdir "$BASE_FOLDER/$GENERAL_FOLDER" 2>/dev/null
+mkdir -p "$BASE_FOLDER/$REPOSITORIES_FOLDER" 2>/dev/null
+mkdir -p "$BASE_FOLDER/$TOOLS_FOLDER" 2>/dev/null
+mkdir -p "$BASE_FOLDER/$GENERAL_FOLDER" 2>/dev/null
 
 showMessage "Setting up my GIT config..."
 git config --global user.name "Thiago Sanches"
@@ -25,9 +25,6 @@ git config --global user.email tsigwt@gmail.com
 cd "$BASE_FOLDER/$REPOSITORIES_FOLDER"
 showMessage "Cloning my repositories..."
 git clone https://github.com/thiagosanches/my-recipes.git
-git clone https://github.com/thiagosanches/trump-engine
-git clone https://github.com/thiagosanches/trump-front-end
-git clone https://github.com/thiagosanches/arisco
 
 # Running my scripts.
 cd $BASE_FOLDER/$REPOSITORIES_FOLDER/my-recipes
