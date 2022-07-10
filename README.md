@@ -1,7 +1,7 @@
 # my-recipes
 This repository includes:
 
-* Recipes to a "hybrid" system: Windows 10 and Linux side by side (Windows Subsystem for Linux 2).
+* Recipes to a "hybrid" system: Windows 10 and Linux side by side (WSL 2).
 * Helper scripts that I've built.
 
 
