@@ -74,6 +74,9 @@ bindsym Mod1+d exec "rofi -modi drun,run -show drun"
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
 
+# blocks/locks the screen
+bindsym Mod1+Shift+b exec --no-startup-id i3lock -c 000000
+
 # change focus
 bindsym Mod1+$left focus left
 bindsym Mod1+$down focus down
