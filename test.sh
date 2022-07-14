@@ -10,7 +10,7 @@ ERRORS=()
 for f in $(find . -type f -not -path '*.git*' | sort -u); do
 	if file "$f" | grep --quiet shell; then
 		{
-			shellcheck "$f" && echo "[OK]: successfully linted $f"
+			shellcheck -x "$f" && echo "[OK]: successfully linted $f"
 		} || {
 			# add to errors
 			ERRORS+=("$f")
