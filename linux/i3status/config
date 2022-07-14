@@ -15,6 +15,7 @@ order += "wireless _first_"
 order += "ethernet _first_"
 order += "battery all"
 order += "load"
+order += "cpu_usage"
 order += "memory"
 
 wireless _first_ {
@@ -33,6 +34,10 @@ battery all {
 
 load {
         format = "CPU: %1min\%"
+}
+
+cpu_usage {
+    format = "CPU %usage "
 }
 
 memory {
