@@ -9,8 +9,8 @@ function ref() {
         code $REF_FILE
     else
 		grep -i "$search_parameter" $REF_FILE
-	OUTPUT=`grep -i "$search_parameter" $REF_FILE | sed 's/==/\t/g' | awk '{ print $2 }'`
-		echo $OUTPUT | xclip
-		echo $OUTPUT
+	OUTPUT=$(grep -i "$search_parameter" $REF_FILE | sed 's/==/\t/g' | awk '{ print $2 }')
+		echo "$OUTPUT" | xclip
+		echo "$OUTPUT"
     fi
 }
