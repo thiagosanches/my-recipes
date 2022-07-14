@@ -1,4 +1,8 @@
 # my-recipes
+
+[![make test](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml/badge.svg)](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml)
+
+
 This repository includes:
 
 * Recipes to a "hybrid" system: Windows 10 and Linux side by side (WSL 2).
