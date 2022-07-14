@@ -7,7 +7,8 @@ TEMP_FOLDER="$BASE_FOLDER/tmp"
 git clone https://github.com/thiagosanches/my-recipes.git "$TEMP_FOLDER"
 
 # Re-using my functions.
-[ -f "$TEMP_FOLDER"/linux/utils/utils.sh ] && . "$TEMP_FOLDER"/linux/utils/utils.sh
+# shellcheck source=linux/bin/utils.sh
+[ -f "$TEMP_FOLDER"/linux/bin/utils.sh ] && . "${TEMP_FOLDER}"/linux/bin/utils.sh
 
 REPOSITORIES_FOLDER="r"
 TOOLS_FOLDER="t"
