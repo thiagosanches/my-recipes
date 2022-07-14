@@ -1,6 +1,6 @@
 # my-recipes
 
-[![make test](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml/badge.svg)](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml)
+[![make test](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml/badge.svg?branch=master)](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml)
 
 
 This repository includes:
