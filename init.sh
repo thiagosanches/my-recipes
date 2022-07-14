@@ -28,7 +28,7 @@ showMessage "Cloning my repositories..."
 git clone https://github.com/thiagosanches/my-recipes.git
 
 # Running my scripts.
-cd "$BASE_FOLDER"/"$REPOSITORIES_FOLDER"/my-recipes
+cd "$BASE_FOLDER"/"$REPOSITORIES_FOLDER"/my-recipes || exit
 
 showMessage "Running some scripts..."
 [ -f linux/scripts/install-docker-ce-ubuntu.sh ] && . linux/bin/install-docker-ce-ubuntu.sh
