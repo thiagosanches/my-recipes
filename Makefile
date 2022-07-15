@@ -8,3 +8,7 @@ shellcheck: ## Runs the shellcheck tests on the scripts.
 		-v $(CURDIR):/usr/src:ro \
 		--workdir /usr/src \
 		jess/shellcheck ./test.sh
+
+
+link:
+	./link.sh
