@@ -9,6 +9,8 @@ shellcheck: ## Runs the shellcheck tests on the scripts.
 		--workdir /usr/src \
 		jess/shellcheck ./test.sh
 
-
 link:
 	./link.sh
+
+unlink:
+	./unlink.sh
