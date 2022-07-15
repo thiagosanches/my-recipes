@@ -6,6 +6,8 @@
 ### How to run it?
 - You can run: `make test` and/or `make (link|unlink)`.
 
+# WORK IN PROGRESS - THE DOCUMENTATION ABOVE IS DEPRECATED!
+
 This repository includes:
 
 * Recipes to a "hybrid" system: Windows 10 and Linux side by side (WSL 2).
