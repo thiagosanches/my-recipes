@@ -3,6 +3,9 @@
 [![make test](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml/badge.svg?branch=master)](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml)
 
 
+How to run it?
+- You can run: `make test` and/or `make (link|unlink)`.
+
 This repository includes:
 
 * Recipes to a "hybrid" system: Windows 10 and Linux side by side (WSL 2).
