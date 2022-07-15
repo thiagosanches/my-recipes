@@ -6,7 +6,7 @@
 ### How to run it?
 - You can run: `make test` and/or `make (link|unlink)`.
 
-# WORK IN PROGRESS - THE DOCUMENTATION ABOVE IS DEPRECATED!
+### WORK IN PROGRESS - THE STEPS BELOW IS DEPRECATED!
 
 This repository includes:
 
