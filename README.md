@@ -3,7 +3,7 @@
 [![make test](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml/badge.svg?branch=master)](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml)
 
 
-How to run it?
+### How to run it?
 - You can run: `make test` and/or `make (link|unlink)`.
 
 This repository includes:
