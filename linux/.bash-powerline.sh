@@ -31,6 +31,7 @@ __powerline() {
         local git_eng="env LANG=C git"   # force git output in English to make our work easier
 
         # get current branch name
+        # shellcheck disable=SC2155
         local ref=$($git_eng symbolic-ref --short HEAD 2>/dev/null)
 
         if [[ -n "$ref" ]]; then
@@ -57,12 +58,14 @@ __powerline() {
         done < <($git_eng status --porcelain --branch 2>/dev/null)  # note the space between the two <
 
         # print the git branch segment without a trailing newline
+        # shellcheck disable=SC2059
         printf " $ref$marks"
     }
 
     ps1() {
         # Check the exit code of the previous command and display different
         # colors in the prompt accordingly. 
+        # shellcheck disable=SC2181
         if [ $? -eq 0 ]; then
             local symbol="$COLOR_SUCCESS $PS_SYMBOL $COLOR_RESET"
         else
@@ -76,10 +79,12 @@ __powerline() {
         # POC: https://github.com/njhartwell/pw3nage
         # Related fix in git-bash: https://github.com/git/git/blob/9d77b0405ce6b471cb5ce3a904368fc25e55643d/contrib/completion/git-prompt.sh#L324
         if shopt -q promptvars; then
+            # shellcheck disable=SC2034
             __powerline_git_info="$(__git_info)"
             local git="$COLOR_GIT\${__powerline_git_info}$COLOR_RESET"
         else
             # promptvars is disabled. Avoid creating unnecessary env var.
+            # shellcheck disable=SC2155
             local git="$COLOR_GIT$(__git_info)$COLOR_RESET"
         fi
 
