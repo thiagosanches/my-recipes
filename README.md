@@ -9,7 +9,7 @@ The `linux` folder represents my `$HOME` directory on the host machine. So, ever
 
 GitHub: `linux/.config/i3/config` -> Host machine: `~/.config/i3/config`.
 
-There are 2 important files that are executed under the `make` command. One, that removes all the links (`unlink.sh`) and the other that recreates all the symbolic links (`link.sh`).
+There are 2 important files that are executed under the `make` command. One, that removes all the links (`unlink.sh`) and the other that recreates all the symbolic links (`link.sh`) and creates the folder structure, if needed.
 
 In other words: You just have to put the config file under the linux folder, following the directory structure that you want and you should be good!
 
