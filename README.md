@@ -1,4 +1,5 @@
 # my-recipes
+This contains all my config files (dotfiles) and/or some useful bash scripts (at least for me haha)! The idea is to always have the configuration files synced up in order to make it faster to reconfigure the host machine.
 
 [![make test](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml/badge.svg?branch=master)](https://github.com/thiagosanches/my-recipes/actions/workflows/make-test.yml)
 
