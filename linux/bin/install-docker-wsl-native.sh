@@ -1,5 +1,6 @@
 #!/bin/bash
 # Based on: https://github.com/codeedu/wsl2-docker-quickstart#instalar-o-docker-com-docker-engine-docker-nativo
+# There is an issue on the Ubuntu22 that we need to perform the steps described here: https://crapts.org/2022/05/15/install-docker-in-wsl2-with-ubuntu-22-04-lts/
 
 sudo apt update && sudo apt upgrade -y
 sudo apt remove docker docker-engine docker.io containerd runc -y
@@ -17,3 +18,4 @@ echo \
 
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
+sudo usermod -aG docker $USER
