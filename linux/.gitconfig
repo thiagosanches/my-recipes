@@ -1,0 +1,10 @@
+[user]
+	email = tsigwt@gmail.com
+	name = Thiago Sanches
+
+[alias]
+	z = status
+	p = push
+	aa = add
+	kk = commit
+	
