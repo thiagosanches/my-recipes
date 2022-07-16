@@ -18,7 +18,7 @@
 font pango:DejaVu Sans Mono 8
 
 # wallpaper
-exec --no-startup-id feh --bg-scale /home/thiago/w.jpg
+exec --no-startup-id feh --bg-scale ~/r/my-recipes/wallpaper/w.jpg
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
