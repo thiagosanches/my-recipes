@@ -12,4 +12,5 @@ adwaita-icon-theme-full \
 network-manager-gnome \
 compton \
 make \
-thunar
+thunar \
+mc
