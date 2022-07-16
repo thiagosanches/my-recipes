@@ -11,4 +11,5 @@ gnome-tweaks \
 adwaita-icon-theme-full \
 network-manager-gnome \
 compton \
-make
+make \
+thunar
