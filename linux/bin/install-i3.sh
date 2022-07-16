@@ -10,4 +10,5 @@ lxappearance \
 gnome-tweaks \
 adwaita-icon-theme-full \
 network-manager-gnome \
-compton 
+compton \
+make
