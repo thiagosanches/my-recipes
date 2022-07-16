@@ -1,7 +1,7 @@
 #!/bin/bash
 # Based on: https://github.com/codeedu/wsl2-docker-quickstart#instalar-o-docker-com-docker-engine-docker-nativo
 
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 sudo apt remove docker docker-engine docker.io containerd runc -y
 sudo apt-get install -y \
     apt-transport-https \
