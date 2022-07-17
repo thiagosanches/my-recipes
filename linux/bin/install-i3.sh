@@ -14,4 +14,5 @@ compton \
 make \
 thunar \
 mc \
-nmap
+nmap \
+iptraf-ng
