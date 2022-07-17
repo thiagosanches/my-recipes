@@ -13,4 +13,5 @@ network-manager-gnome \
 compton \
 make \
 thunar \
-mc
+mc \
+nmap
