@@ -15,4 +15,5 @@ make \
 thunar \
 mc \
 nmap \
-iptraf-ng
+iptraf-ng \
+xclip
