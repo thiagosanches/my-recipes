@@ -76,6 +76,7 @@ bindsym Mod1+d exec "rofi -modi drun,run -show drun"
 
 # blocks/locks the screen
 bindsym Mod1+Shift+b exec --no-startup-id i3lock -c 000000
+bindsym Mod1+Shift+x exec --no-startup-id ~/r/my-recipes/linux/bin/get-emoji.sh
 
 # change focus
 bindsym Mod1+$left focus left
