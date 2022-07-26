@@ -35,6 +35,7 @@
     selected-active-background:  rgba ( 129, 91, 164, 33 % );
 }
 window {
+    font: "Ubuntu Mono 10";
     background-color: @background;
     border:           1;
     padding:          5;
