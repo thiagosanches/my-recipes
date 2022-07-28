@@ -1,9 +1,9 @@
+[includeIf "gitdir:~/r/github/"]
+  	path = ~/.gitconfig.work
+	
 [includeIf "gitdir:~/r/"]
   	path = ~/.gitconfig.me
 	
-[includeIf "gitdir:~/r/github/"]
-  	path = ~/.gitconfig.work
-
 [alias]
 	z = status
 	p = push
