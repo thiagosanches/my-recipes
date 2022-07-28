@@ -17,3 +17,5 @@ In other words: You just have to put the config file under the linux folder, fol
 - You can run: `make test` and/or `make (link|unlink)`.
 - For `make test` it will execute `shellchecker` against all the shell script files, there is a GitHub action that performs the same step on every push.
 - On `vim`, you have to enter on it and type: `PlugInstall`.
+- It's important to keep the personal things on the `~/r` folder.
+- It's important to keep the work things on the `~/r/github` folder.
