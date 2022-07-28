@@ -1,6 +1,8 @@
-[user]
-	email = tsigwt@gmail.com
-	name = Thiago Sanches
+[includeIf "gitdir:~/r/github/"]
+  	path = ~/.gitconfig.work
+
+[includeIf "gitdir:~/r/"]
+  	path = ~/.gitconfig.me
 
 [alias]
 	z = status
