@@ -21,3 +21,4 @@ In other words: You just have to put the config file under the linux folder, fol
 - On `vim`, you have to enter on it and type: `PlugInstall`.
 - It's important to keep the personal things on the `~/r` folder.
 - It's important to keep the work things on the `~/r/github` folder.
+- Create the following file: `~/.my-quick-notes.txt` and place everything that you need at hand.
