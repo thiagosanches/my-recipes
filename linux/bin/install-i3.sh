@@ -17,4 +17,5 @@ mc \
 nmap \
 iptraf-ng \
 net-tools \
-xclip
+xclip \
+scrot
