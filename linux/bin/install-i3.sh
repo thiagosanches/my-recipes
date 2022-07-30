@@ -18,4 +18,5 @@ nmap \
 iptraf-ng \
 net-tools \
 xclip \
-scrot
+scrot \
+imagemagick
