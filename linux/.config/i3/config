@@ -39,7 +39,7 @@ exec --no-startup-id telegram-desktop
 exec --no-startup-id keepassxc
 exec --no-startup-id flameshot
 exec --no-startup-id keyboard
-exec --no-startup-id xrandr --output eDP-1 --auto --right-of HDMI-2
+exec --no-startup-id xrandr --output HDMI-2 --auto --left-of DP-1
 exec --no-startup-id setxkbmap us -variant intl
 exec --no-startup-id compton -b
 
@@ -150,8 +150,8 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-assign [class="KeePassXC"] "1"
-assign [class="Telegram"] "1"
+assign [class="KeePassXC"] "2"
+assign [class="Telegram"] "2"
 
 for_window [class="Code"] floating enable
 for_window [class="Firefox"] floating enable
