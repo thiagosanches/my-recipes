@@ -19,4 +19,5 @@ iptraf-ng \
 net-tools \
 xclip \
 scrot \
-imagemagick
+imagemagick \
+playerctl
