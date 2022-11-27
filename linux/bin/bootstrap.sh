@@ -38,7 +38,8 @@ sudo apt install -y \
 	ansible \
 	jq \
 	meld \
-	p7zip
+	p7zip \
+	xscreensaver xscreensaver-data-extra xscreensaver-gl-extra
 
 # install awslcli:
 # https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
