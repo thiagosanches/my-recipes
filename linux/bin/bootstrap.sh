@@ -37,7 +37,8 @@ sudo apt install -y \
 	lxappearance gtk-chtheme \
 	ansible \
 	jq \
-	meld
+	meld \
+	p7zip
 
 # install awslcli:
 # https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
