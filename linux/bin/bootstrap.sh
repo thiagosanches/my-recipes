@@ -41,7 +41,8 @@ sudo apt install -y \
 	p7zip \
 	xscreensaver xscreensaver-data-extra xscreensaver-gl-extra \
 	remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-spice \
-	qt5ct
+	qt5ct \
+	pavucontrol
 
 # install awslcli:
 # https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
