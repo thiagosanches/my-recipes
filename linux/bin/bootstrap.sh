@@ -40,7 +40,8 @@ sudo apt install -y \
 	meld \
 	p7zip \
 	xscreensaver xscreensaver-data-extra xscreensaver-gl-extra \
-	remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-spice
+	remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-spice \
+	qt5ct
 
 # install awslcli:
 # https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
