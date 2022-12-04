@@ -1,11 +1,11 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.45 for thiago on Sun Nov 27 15:56:53 2022.
+# Written by xscreensaver-demo 5.45 for thiago on Sun Dec  4 08:31:46 2022.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
 cycle:		0:10:00
-lock:		False
-lockTimeout:	0:00:00
+lock:		True
+lockTimeout:	0:05:00
 passwdTimeout:	0:00:30
 visualID:	default
 installColormap:    True
@@ -34,8 +34,8 @@ grabVideoFrames:    False
 chooseRandomImages: False
 imageDirectory:	
 
-mode:		random
-selected:	-1
+mode:		one
+selected:	92
 
 textMode:	url
 textLiteral:	XScreenSaver
@@ -94,8 +94,8 @@ programs:								      \
 				triangle -root				    \n\
 				xjack -root				    \n\
 				xlyap -root				    \n\
-- GL: 				atlantis -root				    \n\
-				bsod -root				    \n\
+  GL: 				atlantis -root				    \n\
+-				bsod -root				    \n\
 - GL: 				bubble3d -root				    \n\
 - GL: 				cage -root				    \n\
 -				crystal -root				    \n\
@@ -114,7 +114,7 @@ programs:								      \
 				truchet -root				    \n\
 -				vidwhacker -root			    \n\
 				blaster -root				    \n\
-				bumps -root				    \n\
+-				bumps -root				    \n\
 				ccurve -root				    \n\
 				compass -root				    \n\
 				deluxe -root				    \n\
@@ -132,7 +132,7 @@ programs:								      \
 				squiral -root				    \n\
 				wander -root				    \n\
 -				webcollage -root			    \n\
-				xflame -root				    \n\
+-				xflame -root				    \n\
 				xmatrix -root				    \n\
 - GL: 				gflux -root				    \n\
 -				nerverot -root				    \n\
@@ -174,8 +174,8 @@ programs:								      \
 				twang -root				    \n\
 - GL: 				antspotlight -root			    \n\
 				apple2 -root				    \n\
-- GL: 				atunnel -root				    \n\
-				barcode -root				    \n\
+  GL: 				atunnel -root				    \n\
+-				barcode -root				    \n\
 - GL: 				blinkbox -root				    \n\
 - GL: 				blocktube -root				    \n\
 - GL: 				bouncingcow -root			    \n\
