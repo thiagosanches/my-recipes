@@ -43,7 +43,6 @@ exec --no-startup-id xrandr --output HDMI-2 --auto --left-of DP-1
 exec --no-startup-id setxkbmap us -variant intl
 exec --no-startup-id compton -b
 exec --no-startup-id xscreensaver -nosplash
-exec ~/r/my-recipes/linux/bin/switch-monitors.sh &
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
