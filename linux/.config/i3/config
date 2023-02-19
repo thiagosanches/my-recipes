@@ -43,7 +43,7 @@ exec --no-startup-id xrandr --output HDMI-2 --auto --left-of DP-1
 exec --no-startup-id setxkbmap us -variant intl
 exec --no-startup-id compton -b
 exec --no-startup-id xscreensaver -nosplash
-exec --no-startup-id ~/r/my-recipes/linux/bin/switch-monitors.sh
+exec ~/r/my-recipes/linux/bin/switch-monitors.sh &
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -243,9 +243,6 @@ client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
 client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
 client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
-
-
-
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
