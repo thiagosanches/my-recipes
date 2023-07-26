@@ -304,3 +304,7 @@
 [speech]
 summary = "*"
 script = dunst-notify-speech.sh
+
+[all]
+summary = "*"
+script = /home/thiago/r/github/yet-another-rp2040-macropad/dunst-to-file/notify.sh

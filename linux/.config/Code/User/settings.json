@@ -1,5 +1,4 @@
 {
-    "files.autoSave": "afterDelay",
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
@@ -9,5 +8,10 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "arduino.useArduinoCli": true,
+    "files.autoSave": "afterDelay",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    }
 }
