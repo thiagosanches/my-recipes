@@ -8,7 +8,7 @@
 # AZURE_PAT="BASE64 FOR YOUR PAT"
 source ~/r/my-recipes/linux/bin/topsecret/ado-azure.properties
 
-AZURE_URL="https://dev.azure.com/$AZURE_ORGANIZATION/$AZURE_PROJECT/_apis/wit/workItems/\$Task?api-version=7.1"
+AZURE_URL="https://dev.azure.com/$AZURE_ORGANIZATION/$AZURE_PROJECT/_apis/wit/workItems/\$User%20Story?api-version=7.1"
 
 SUMMARY="$1"
 DESCRIPTION="$2"
