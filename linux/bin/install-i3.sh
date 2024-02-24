@@ -2,6 +2,7 @@
 
 sudo apt-get install -y xss-lock \
 dex \
+libgtk-3-dev \
 i3 \
 gnome-terminal \
 rofi \
