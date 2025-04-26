@@ -62,7 +62,7 @@ set $right semicolon
 floating_modifier Mod1
 
 # start a terminal
-bindsym Mod1+Return exec kitty
+bindsym Mod1+Return exec /home/thiago/t/kitty/bin/kitty
 
 # kill focused window
 bindsym Mod1+Shift+q kill
