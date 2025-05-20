@@ -13,5 +13,8 @@
     "files.autoSave": "afterDelay",
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
-    }
+    },
+    "terminal.integrated.fontSize": 11,
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.startupEditor": "none"
 }
