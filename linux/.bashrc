@@ -137,3 +137,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # To look at my little shell scripts :)
 export PATH="$PATH:$HOME/r/my-recipes/linux/bin:$HOME/r/my-recipes/linux/bin/topsecret"
+export TERM="xterm-color"

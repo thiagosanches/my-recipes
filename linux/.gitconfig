@@ -6,7 +6,7 @@
 
 [alias]
 	z = status
-	p = push
+	i = push
 	aa = add
 	kk = commit
 	k = clone
