@@ -28,7 +28,6 @@ sudo apt install -y \
 	pulseaudio-utils \
 	xbacklight \
 	alsa-tools \
-	clipit \
 	gcc \
 	locate \
 	pcmanfm \
