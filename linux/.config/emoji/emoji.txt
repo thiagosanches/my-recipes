@@ -565,6 +565,7 @@
 🍷 wine glass
 🍸 cocktail glass
 🍹 tropical drink
+☕ coffee
 🍺 beer mug
 🍻 clinking beer mugs
 🥂 clinking glasses
