@@ -23,7 +23,7 @@ check_playerctl_installation
 # create a function _playerctl that runs docker run with the playerctl image 
 # that use unix sockets to talk to dbus from the host machine.
 _playerctl() {
-    docker run -it --rm \
+    docker run -i --rm \
         --user $(id -u):$(id -g) \
         -e DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus" \
         -v /run/user/$(id -u)/bus:/run/user/$(id -u)/bus \
