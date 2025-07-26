@@ -73,6 +73,7 @@ bindsym Mod1+Shift+b exec --no-startup-id ~/r/my-recipes/linux/bin/block-screen-
 # useful rofie shortcuts
 bindsym Mod1+Shift+x exec --no-startup-id ~/r/my-recipes/linux/bin/get-emoji.sh
 bindsym Mod1+Shift+a exec --no-startup-id ~/r/my-recipes/linux/bin/get-quick-notes.sh
+bindsym Mod1+Shift+y exec --no-startup-id ~/r/my-recipes/linux/bin/get-appimages.sh
 
 # change focus
 bindsym Mod1+$left focus left
