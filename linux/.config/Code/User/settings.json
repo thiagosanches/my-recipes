@@ -16,5 +16,14 @@
     },
     "terminal.integrated.fontSize": 11,
     "git.openRepositoryInParentFolders": "never",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "maui.configuration.androidSdkPreferredPath": "/home/thiago/Android/Sdk",
+    "maui.configuration.javaSdkPreferredPath": "/usr/lib/jvm/java-11-openjdk-amd64",
+    "window.confirmSaveUntitledWorkspace": false
 }
