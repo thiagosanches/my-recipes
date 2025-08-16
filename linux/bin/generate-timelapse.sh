@@ -8,5 +8,5 @@ OUTPUT_FILE="timelapse-${TIMELAPSE}.mp4"
 for i in $(ls *.jpg -v); do echo "file '$i'" >> "$INPUT_FILE"; done
 
 # Generate the timelapse video using ffmpeg
-ffmpeg -f concat -input "$INPUT_FILE" -framerate 30 -vcodec libx264 -threads 2 -b:v 10000k "$OUTPUT_FILE"
+ffmpeg -f concat -i "$INPUT_FILE" -framerate 30 -vcodec libx264 -threads 2 -b:v 10000k "$OUTPUT_FILE"
 rm -rf "$INPUT_FILE"
